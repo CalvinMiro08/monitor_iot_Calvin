@@ -38,6 +38,7 @@ python -m unittest discover -s tests -v
 
 ## Estructura del Proyecto
 
+```text
 ├── sensores/       # Lectura de métricas del equipo
 ├── eventos/        # Detección y manejo de eventos
 ├── alertas/        # Cola y reproducción no bloqueante de sonidos
@@ -47,6 +48,7 @@ python -m unittest discover -s tests -v
 ├── config.py       # Parámetros, umbrales e intervalos
 ├── nucleo.py       # Ciclo principal de monitoreo
 └── main.py         # Punto de entrada de la aplicación
+```
 
 ## Autoría
 
