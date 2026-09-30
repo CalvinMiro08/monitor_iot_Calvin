@@ -299,5 +299,177 @@
         "prom": 79.0
       }
     }
+  },
+  {
+    "nodo": "laptop-lab3",
+    "ubicacion": "Laboratorio 3 FISC",
+    "hora": "2026-09-30 14:38:56",
+    "metricas": {
+      "cpu": {
+        "n": 24,
+        "min": 2.3,
+        "max": 47.1,
+        "prom": 8.16
+      },
+      "memoria": {
+        "n": 24,
+        "min": 59.2,
+        "max": 60.3,
+        "prom": 59.62
+      },
+      "red": {
+        "n": 24,
+        "min": 0.0,
+        "max": 17.2,
+        "prom": 0.78
+      },
+      "disco": {
+        "n": 6,
+        "min": 53.9,
+        "max": 53.9,
+        "prom": 53.9
+      },
+      "procesos": {
+        "n": 6,
+        "min": 291,
+        "max": 293,
+        "prom": 292.33
+      },
+      "bateria": {
+        "n": 6,
+        "min": 80,
+        "max": 80,
+        "prom": 80.0
+      }
+    }
+  },
+  {
+    "nodo": "laptop-lab3",
+    "ubicacion": "Laboratorio 3 FISC",
+    "hora": "2026-09-30 14:39:26",
+    "metricas": {
+      "cpu": {
+        "n": 24,
+        "min": 5.4,
+        "max": 28.3,
+        "prom": 13.85
+      },
+      "memoria": {
+        "n": 24,
+        "min": 58.8,
+        "max": 59.3,
+        "prom": 59.17
+      },
+      "red": {
+        "n": 24,
+        "min": 0.0,
+        "max": 4.8,
+        "prom": 0.29
+      },
+      "disco": {
+        "n": 6,
+        "min": 53.9,
+        "max": 53.9,
+        "prom": 53.9
+      },
+      "procesos": {
+        "n": 6,
+        "min": 290,
+        "max": 291,
+        "prom": 290.67
+      },
+      "bateria": {
+        "n": 6,
+        "min": 80,
+        "max": 80,
+        "prom": 80.0
+      }
+    }
+  },
+  {
+    "nodo": "laptop-lab3",
+    "ubicacion": "Laboratorio 3 FISC",
+    "hora": "2026-09-30 14:49:40",
+    "metricas": {
+      "cpu": {
+        "n": 23,
+        "min": 3.1,
+        "max": 88.7,
+        "prom": 35.65
+      },
+      "memoria": {
+        "n": 23,
+        "min": 64.9,
+        "max": 70.5,
+        "prom": 66.57
+      },
+      "red": {
+        "n": 23,
+        "min": 0.0,
+        "max": 1503.8,
+        "prom": 177.95
+      },
+      "disco": {
+        "n": 6,
+        "min": 53.8,
+        "max": 53.9,
+        "prom": 53.88
+      },
+      "procesos": {
+        "n": 6,
+        "min": 292,
+        "max": 304,
+        "prom": 297.17
+      },
+      "bateria": {
+        "n": 6,
+        "min": 80,
+        "max": 80,
+        "prom": 80.0
+      }
+    }
+  },
+  {
+    "nodo": "laptop-lab3",
+    "ubicacion": "Laboratorio 3 FISC",
+    "hora": "2026-09-30 14:50:09",
+    "metricas": {
+      "cpu": {
+        "n": 23,
+        "min": 2.3,
+        "max": 35.6,
+        "prom": 12.68
+      },
+      "memoria": {
+        "n": 23,
+        "min": 69.4,
+        "max": 71.0,
+        "prom": 70.14
+      },
+      "red": {
+        "n": 23,
+        "min": 0.0,
+        "max": 14.6,
+        "prom": 2.43
+      },
+      "disco": {
+        "n": 5,
+        "min": 53.9,
+        "max": 53.9,
+        "prom": 53.9
+      },
+      "procesos": {
+        "n": 5,
+        "min": 301,
+        "max": 304,
+        "prom": 303.0
+      },
+      "bateria": {
+        "n": 5,
+        "min": 80,
+        "max": 80,
+        "prom": 80.0
+      }
+    }
   }
 ]

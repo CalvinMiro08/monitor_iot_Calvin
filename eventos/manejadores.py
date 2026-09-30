@@ -63,6 +63,16 @@ def red_pico(dato):
 def red_calma(dato):
     return ("INFO", f"Trafico normalizado: {dato['valor']} KB/s")
 
+# LABORATORIO: reacciones para cambios y recordatorios del estado de red.
+def red_desconectada(dato):
+    return ("ALERTA", "Se perdio la conexion de red")
+
+def red_conectada(dato):
+    return ("INFO", "Se recupero la conexion de red")
+
+def red_sigue_desconectada(dato):
+    return ("AVISO", "La conexion de red continua desconectada")
+
 # --------------------------------------------------------------------------
 # Procesos
 # --------------------------------------------------------------------------
@@ -124,6 +134,10 @@ MANEJADORES = {
     "disco_aliviado": disco_aliviado,
     "red_pico": red_pico,
     "red_calma": red_calma,
+    # LABORATORIO: nuevos eventos de estado de conexion.
+    "red_desconectada": red_desconectada,
+    "red_conectada": red_conectada,
+    "red_sigue_desconectada": red_sigue_desconectada,
     "proceso_nuevo": proceso_nuevo,
     "proceso_cerrado": proceso_cerrado,
     "proceso_pesado": proceso_pesado,

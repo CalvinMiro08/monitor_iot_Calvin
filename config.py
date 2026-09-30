@@ -44,6 +44,24 @@ DISCO_ALIVIADO = 85.0
 RED_PICO_KBS = 500.0   # kilobytes por segundo
 RED_CALMA_KBS = 200.0
 
+# LABORATORIO: estado de conexión y recordatorio mientras la red siga caída.
+PERIODO_ESTADO_RED = 1.0
+RECORDATORIO_RED_DESCONECTADA = 30.0
+
+# LABORATORIO: temporizacion, capacidad y patrones del reproductor de alertas.
+DURACION_PASO_SONORO = 0.8
+MAX_ALERTAS_PENDIENTES = 100
+SONIDOS_ALERTA = {
+    "cpu_alta": ("SystemExclamation", "SystemAsterisk"),
+    "ram_alta": ("SystemHand", "SystemHand"),
+    "red_pico": ("SystemAsterisk", "SystemAsterisk", "SystemAsterisk"),
+    "red_desconectada": ("SystemHand", "SystemQuestion"),
+    "red_conectada": ("SystemAsterisk", "SystemQuestion"),
+    "red_sigue_desconectada": (
+        "SystemHand", "SystemHand", "SystemQuestion"
+    ),
+}
+
 BATERIA_BAJA = 20.0
 BATERIA_RECUPERADA = 30.0
 
